@@ -1,0 +1,559 @@
+.basic > div {
+  text-align: center;
+  padding: 5px 12px 10px 12px;
+  cursor: pointer;
+}
+.basic div img {
+  max-width: 90%;
+}
+.hidden {
+  display: none;
+}
+.basic-bar-bottom {
+  bottom: 0;
+  position: absolute;
+  padding: 2px !important;
+}
+.share-panel > div {
+  min-height: 300px !important;
+  width: 95% !important;
+  left: 2.5%;
+}
+
+.panel-btn-arrow {
+  float: right;
+  margin-right: 20px;
+}
+
+.spad-panel {
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  background: #252525;
+  width: 250px;
+  height: 100%;
+  /* border-right: #252525 1px solid; */
+  /* display: none; */
+  padding: 0px !important;
+  overflow-y: auto;
+}
+
+.spad-control-panel {
+  position: absolute;
+  top: 90%;
+  right: 6%;
+  background: #ebebeb;
+  font-size: 15pt;
+  width: 9%;
+  height: fit-content;
+  border-radius: 15px;
+  left: auto;
+  color: #000;
+  border-right: #b4b4b4 1px solid;
+  display: none;
+  padding: 0px !important;
+  overflow-y: auto;
+}
+
+.show {
+  display: block;
+}
+.side-img {
+  display: block;
+}
+.side-img-hidden {
+  display: none;
+}
+.active {
+  background-color: #252525;
+}
+.active .side-img {
+  display: none;
+}
+.active .side-img-hidden {
+  display: block;
+}
+.panel {
+  display: none;
+  /* min-height: 200px; */
+  overflow-y: auto;
+  background: #d0d0d0;
+}
+.active {
+  display: block;
+}
+.panel-btn {
+  padding: 0 0 0 25px;
+  width: 100%;
+  font-weight: bold;
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(55, 55, 55, 1) 100%
+  );
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  height: 50px;
+  cursor: pointer;
+  color: white;
+}
+
+.panel-btn.active {
+  background-image: linear-gradient(
+    to top,
+    #b3b3b3,
+    #c1c1c1,
+    #cfcfcf,
+    #dddddd,
+    #ebebeb
+  );
+  color: #000;
+}
+
+.sub-panel-btn {
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  background: #949494;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  margin-top: 5px;
+  padding: 0 0 0 15%;
+}
+
+.sub-panel-btn.active {
+  background: #000;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.controls {
+  float: right;
+  display: flex;
+  margin: 0.7% 3% 0 0;
+}
+.controls .panel-btn-arrow {
+  padding: 4px 0 0 0;
+  float: right;
+  margin-right: 10px;
+  font-size: 18pt;
+  background: #fff;
+  border-radius: 12px 12px 12px 12px;
+  width: 35px;
+  height: 35px;
+}
+.controls .user-btn {
+  float: left;
+  display: flex;
+  cursor: pointer;
+  background: unset;
+  border: unset;
+}
+
+.controls .user {
+  color: #37c9ff;
+  margin-top: 10px;
+}
+
+.controls .links-btn {
+  float: left;
+  display: flex;
+  cursor: pointer;
+  background: unset;
+  border: unset;
+}
+
+.controls .spad-panel {
+  position: absolute;
+  top: 90%;
+  right: 3%;
+  background: #ebebeb;
+  font-size: 15pt;
+  width: 12%;
+  height: fit-content;
+  border-radius: 15px;
+  left: auto;
+  color: #000;
+}
+.controls .spad-panel ul {
+  list-style: none;
+}
+
+.controls .spad-control-panel ul {
+  list-style: none;
+}
+.controls .spad-panel ul li a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.controls .spad-control-panel ul li a {
+  color: unset;
+  text-decoration: unset;
+}
+
+.jimu-widget-add-data,
+.jimu-widget-add-data .jimu-tab3 > .jimu-viewstack {
+  position: relative;
+  top: initial;
+  right: initial;
+  left: initial;
+  bottom: initial;
+  padding-bottom: 0px;
+  width: 95%;
+  left: 2.5%;
+}
+
+.layerlist {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  padding: 0px !important;
+}
+.layerlist > button {
+  width: 3.4rem;
+  background-color: #d1d1d1;
+  height: 3.2rem;
+  border: none;
+  text-align: center;
+}
+.layerlist > .spad-panel {
+  left: 0px;
+}
+.left {
+  left: 313px;
+}
+#layerListPanel > button {
+  display: flex;
+  width: 100%;
+  height: 65px;
+  background: #b1b1b1;
+  color: black;
+  border: none;
+  font-size: 18px;
+  z-index: 99999;
+  text-align: left;
+  position: absolute;
+  padding: 0 0 0 10px;
+}
+
+#layerListPanel > button > img {
+  width: 15%;
+}
+
+#layerListPanel > button > h1 {
+  display: inline;
+  font-weight: 550;
+  margin: 10px 16px 0 20px;
+}
+
+#layerListPanel > button .angel {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 0 0 0 10px;
+}
+
+.layer-panel {
+  padding: 10px;
+  height: 90%;
+  overflow: auto;
+  padding-top: 75px;
+}
+.basic-bar-bottom > div {
+  padding: 0 15px 10px 15px;
+}
+.jimu-widget,
+.jimu-multiple-layers-featureset-chooser .btn-clear,
+.feature-action {
+  color: #000;
+  /* z-index: 102; */
+}
+
+.jimu-widget-attributetable-feature-table,
+.dgrid {
+  color: black;
+}
+
+.panel-head {
+  height: 50px;
+  background-color: #313131;
+  text-align: left;
+}
+
+.panel-head > img {
+  width: 11%;
+  position: relative;
+  left: 20px;
+  top: 7px;
+}
+
+.panel-head > h1 {
+  color: #fff;
+  display: inline;
+  font-size: 30px;
+  position: relative;
+  left: 38px;
+  top: 3px;
+}
+
+#dijit__WidgetBase_1 {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50px !important;
+  text-align: center;
+}
+
+#dijit__WidgetBase_1 > img {
+  width: 30px;
+  height: 30px;
+  margin: 15px 0 0 0;
+}
+
+#dijit__WidgetBase_0 {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50px !important;
+  text-align: center;
+}
+
+#dijit__WidgetBase_0 > img {
+  width: 30px;
+  height: 30px;
+  margin: 15px 0 0 0;
+}
+.esriPopup {
+  font-family: "Myriad Pro" !important;
+}
+
+.spad-panel > button {
+  font-family: "Myriad Pro" !important;
+}
+
+.spad-panel > button img.arrow,
+.spad-panel > button img.arrow-active {
+  float: right;
+  height: 7px;
+  margin: 10px;
+}
+
+.spad-panel > button img.arrow {
+  display: block;
+}
+
+.spad-panel > button img.arrow-active {
+  display: none;
+}
+
+.spad-panel > button.active img.arrow {
+  display: none;
+}
+
+.spad-panel > button.active img.arrow-active {
+  display: block;
+}
+
+.panel > button > .panel-btn-arrow > img.arrow,
+.panel > button > .panel-btn-arrow > img.arrow-active {
+  float: right;
+  height: 7px;
+  margin: 10px;
+}
+
+.panel > button > .panel-btn-arrow > img.arrow {
+  display: block;
+}
+
+.panel > button > .panel-btn-arrow > img.arrow-active {
+  display: none;
+}
+
+.panel > button.active > .panel-btn-arrow > img.arrow {
+  display: none;
+}
+
+.panel > button.active > .panel-btn-arrow > img.arrow-active {
+  display: block;
+}
+
+.dgrid-content {
+  width: 100% !important;
+  position: relative;
+  height: 100%;
+}
+.sub-panel {
+  padding-bottom: 5px;
+  /* min-height: 150px; */
+  background: #d0d0d0;
+  width: 100%;
+  display: none;
+  max-height: 250px;
+  overflow: auto;
+}
+.sub-panel select {
+  width: 80%;
+  margin: 10px 0px 0px 0px;
+  padding: 3px;
+  border-radius: 10px;
+  border: none;
+}
+.sub-panel .map-container img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #888888;
+  display: block;
+}
+.sub-panel .map-container {
+  margin: 14px 0px;
+}
+
+.sub-panel .map-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.sub-panel .map-container .map-desc {
+  float: left;
+  display: block;
+  width: 108px;
+  margin: -20px 10px;
+  text-align: left;
+  color: #252525;
+}
+.sub-panel .map-container .map-desc h4 {
+  text-decoration: underline;
+  text-align: center;
+  font-size: 16px;
+}
+
+.sub-panel .map-container .map-desc p {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+.report {
+  display: block;
+  background: #ebebeb;
+  height: 25px;
+  margin: 5px 35px;
+  text-align: left;
+}
+.report img {
+  height: 25px;
+  width: 25px;
+  background: white;
+  float: left;
+  margin-right: 5px;
+}
+.report a {
+  display: block;
+  height: 25px;
+  width: 100%;
+
+  padding-top: 4px;
+  text-decoration: none;
+  color: #252525;
+  font-size: 13px;
+  font-weight: bold;
+}
+.sub-panel .gallery {
+  margin: 10px;
+}
+.sub-panel .gallery .item {
+  display: block;
+  float: left;
+  width: 50%;
+}
+.sub-panel .gallery .item img {
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px #888888;
+}
+.sub-panel .gallery .item h4 {
+  color: #252525;
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+}
+
+.layer-list {
+  top: 5.8%;
+  left: 250px;
+  position: absolute;
+}
+
+.layer-list.active {
+  height: 100%;
+}
+.layer-list .icon {
+  width: 68px;
+  height: 53px;
+  background: #d1d1d1;
+  border-bottom-right-radius: 15px;
+  background-image: url(../images/30-1.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-size: 45px 37px;
+  background-position: 9px 6px;
+}
+.layer-list .content {
+  width: 270px;
+  overflow: auto;
+  top: 0px;
+  position: absolute;
+  display: none;
+}
+.layer-list.active .content {
+  display: block;
+  height: 93%;
+}
+.layerlist button {
+  background-color: #c9cdd1;
+  width: 100%;
+  height: 50px;
+  border: none;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0 0 10px 8px;
+  cursor: pointer;
+}
+.layerlist button::before {
+  top: 7px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  background-image: url(../images/30-1.png);
+  width: 45px;
+  height: 39px;
+  padding: 0 15px 0 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.layerlist button::after {
+  content: "";
+  top: 15px;
+  left: 26%;
+  position: relative;
+  display: inline-block;
+  background-image: url(../images/left-arrow.png);
+  width: 18px;
+  height: 18px;
+  padding: 0 0 18px 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.layer-list .layer-panel {
+  padding: 4%;
+  background: #c2c2c2;
+}
+
+.jimu-widget-layerList .div-content.grayed-title {
+  opacity: 1 !important;
+}

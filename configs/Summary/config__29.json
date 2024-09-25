@@ -1,0 +1,24 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "COUNT",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "SUM",
+        "label": "",
+        "field": "Shape__Area"
+      },
+      {
+        "type": "MAX",
+        "label": "",
+        "field": "Shape__Length"
+      }
+    ],
+    "id": "DevelopIsmaliaWep_phD_2982",
+    "name": "DevelopIsmaliaWep_phD - الاراضى المتاحة للتنمية زراعية",
+    "filterField": "FID_تقييم_الصناعة_D",
+    "url": "DevelopIsmaliaWep_phD_2982"
+  }
+}
+

@@ -1,0 +1,244 @@
+{
+  "selectionColor": "#00FFFF",
+  "selectionMode": "partial",
+  "allowExport": true,
+  "includeRuntimeLayers": true,
+  "geometryTypes": [
+    "POINT",
+    "POLYLINE",
+    "EXTENT",
+    "CIRCLE",
+    "POLYGON",
+    "FREEHAND_POLYGON"
+  ],
+  "layerState": {
+    "BaseMap_202008131429_5993": {
+      "selected": true
+    },
+    "BaseMap_202008131429_1494": {
+      "selected": true
+    },
+    "BaseMap_202008131429_1923": {
+      "selected": true
+    },
+    "BaseMap_202008131429_3860": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8823": {
+      "selected": true
+    },
+    "BaseMap_202008131429_4715": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7136": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8062": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7888": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9194": {
+      "selected": true
+    },
+    "BaseMap_202008131429_4907": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7011": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6497": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5303": {
+      "selected": true
+    },
+    "BaseMap_202008131429_4841": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2988": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2038": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7478": {
+      "selected": true
+    },
+    "BaseMap_202008131429_34": {
+      "selected": true
+    },
+    "BaseMap_202008131429_1169": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8358": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8592": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2685": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6560": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9563": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6777": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7794": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9908": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6868": {
+      "selected": true
+    },
+    "BaseMap_202008131429_694": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6806": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7145": {
+      "selected": true
+    },
+    "BaseMap_202008131429_3574": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5539": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6251": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6619": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5267": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6238": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2313": {
+      "selected": true
+    },
+    "BaseMap_202008131429_212": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9113": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2326": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2354": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8406": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5026": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7954": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8438": {
+      "selected": true
+    },
+    "BaseMap_202008131429_3187": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2422": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9162": {
+      "selected": true
+    },
+    "BaseMap_202008131429_4939": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7802": {
+      "selected": true
+    },
+    "BaseMap_202008131429_4980": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9314": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5996": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8837": {
+      "selected": true
+    },
+    "BaseMap_202008131429_9370": {
+      "selected": true
+    },
+    "BaseMap_202008131429_5528": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8361": {
+      "selected": true
+    },
+    "BaseMap_202008131429_767": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2866": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7554": {
+      "selected": true
+    },
+    "BaseMap_202008131429_7837": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8115": {
+      "selected": true
+    },
+    "BaseMap_202008131429_8505": {
+      "selected": true
+    },
+    "BaseMap_202008131429_617": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2317": {
+      "selected": true
+    },
+    "BaseMap_202008131429_1679": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6001": {
+      "selected": true
+    },
+    "BaseMap_202008131429_1985": {
+      "selected": true
+    },
+    "BaseMap_202008131429_950": {
+      "selected": true
+    },
+    "BaseMap_202008131429_422": {
+      "selected": true
+    },
+    "BaseMap_202008131429_2519": {
+      "selected": true
+    },
+    "BaseMap_202008131429_3181": {
+      "selected": true
+    },
+    "BaseMap_202008131429_956": {
+      "selected": true
+    },
+    "BaseMap_202008131429_6142": {
+      "selected": true
+    }
+  }
+}

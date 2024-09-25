@@ -1,0 +1,33 @@
+.esriLegendServiceLabel {
+  font-size: 14px;
+}
+
+.esriLegendLayer {
+  font-size: 12px;
+}
+
+.jimu-widget-legend .basemap-layers-title {
+  display: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0 10px 0;
+}
+
+#dijit__WidgetBase_1 {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0% !important;
+}
+.jimu-panel.jimu-on-screen-widget-panel.jimu-main-background#widgets_Legend_Widget_18_panel {
+  left: auto !important;
+  right: 0px !important;
+  top: auto !important;
+  bottom: 0px !important;
+  width: 300px !important;
+  height: 94% !important;
+  z-index: 0 !important;
+  opacity: 0.75 !important;
+}
+.jimu-panel.jimu-on-screen-widget-panel.jimu-main-background#widgets_Legend_Widget_18_panel:hover {
+  opacity: 1 !important;
+}

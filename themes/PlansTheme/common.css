@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'GE SS Unique Bold';
+    src: url('./fonts/GE-SS-Unique-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GE SS Unique Lite';
+    src: url('./fonts/GE_SS_Unique_Light.otf');
+}
+
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('./fonts/MyriadPro-Regular.otf');
+}
+html,body,p,a,div,span {
+    font-family: "Myriad Pro";
+}

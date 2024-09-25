@@ -1,0 +1,13 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "عدد",
+  "summaryLayer": {
+    "fields": [
+    ],
+    "id": "BaseMap_202008131429_6142",
+    "name": "BaseMap_202008131429 - ملكيات_الأراضي",
+    "filterField": "ownership_type",
+    "url": "BaseMap_202008131429_6142"
+  }
+}

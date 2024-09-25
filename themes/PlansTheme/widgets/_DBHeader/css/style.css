@@ -1,0 +1,105 @@
+.header {
+    height: 53px;
+    background: #202020;
+}
+
+    .header img.logo {
+        padding: 5px 50px;
+        max-height: 100%;
+        float: left;
+    }
+
+    .header ul.tabs {
+        display: block;
+        margin: 12px 0px 0px 0px;
+        float: left;
+        padding-inline-start: 0px;
+    }
+
+        .header ul.tabs li {
+            display: block;
+            margin: 0px;
+            float: left;
+            background: #252525;
+            font-size: 20px;
+            border-radius: 14px 14px 0px 0px;
+            padding: 3px 20px;
+            margin: 5px 7.5px;
+        }
+
+            .header ul.tabs li.active {
+                background: #ffffff;
+            }
+
+            .header ul.tabs li a {
+                text-decoration: none;
+                color: #ffffff;
+                font-family: Myriad Pro;
+            }
+
+            .header ul.tabs li.active a {
+                text-decoration: none;
+                color: #252525;
+                font-weight: bold;
+            }
+
+    .header ul.menu {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+        .header ul.menu > li {
+            display: block;
+            float: left;
+            margin-right: 20px;
+        }
+
+            .header ul.menu > li img {
+                background: #ffffff;
+                border-radius: 5px;
+                padding: 8px;
+                height: 32px;
+            }
+
+            .header ul.menu > li span {
+                color: #37c9ff;
+                text-decoration: underline;
+                font-size: 14.5px;
+                float: right;
+                margin-top: 8px;
+                margin-left: 10px;
+            }
+
+span {
+}
+
+.header ul.menu > li ul {
+    background: #d7d7d7;
+    display: none;
+    position: absolute;
+    right: 30px;
+    list-style: none;
+    padding: 0px;
+    width: 135px;
+    top: 53px;
+}
+
+    .header ul.menu > li ul li {
+        display: block;
+        margin: 0px;
+        padding: 4px;
+        border-bottom: 1px solid #c3c3c3;
+    }
+
+        .header ul.menu > li ul li:hover {
+            background: #b7b6b6;
+        }
+
+        .header ul.menu > li ul li a {
+            text-decoration: none;
+            color: #252525;
+            font-size: 18px;
+            display: block;
+            width: 100%;
+        }

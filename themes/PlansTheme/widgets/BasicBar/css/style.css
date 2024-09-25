@@ -1,0 +1,323 @@
+.toolbar {
+  background-color: #272727;
+  opacity: 90%;
+  border-radius: 12px 0 0 12px;
+  width: 40px;
+  z-index: 100 !important;
+  padding: 5px 0px !important;
+}
+
+.toolbar .tool a {
+  cursor: pointer;
+}
+
+.toolbar hr {
+  padding: 0px;
+  margin: 2px 9px 3px 10px;
+  width: 23px;
+  border: none;
+  border-top: black 1px solid;
+}
+
+.toolbar .spad-dropdown-menu.search {
+  min-width: 200px;
+  height: 34px;
+  top: 0px !important;
+}
+
+.toolbar .spad-dropdown-menu.select {
+  border-radius: 5px;
+  top: 250px !important;
+}
+
+.toolbar .spad-dropdown-menu.measure {
+  /* top: 351px !important; */
+  width: 197px;
+  padding: 5px;
+  background: #454545;
+  bottom: -47px;
+}
+
+.toolbar .spad-dropdown-menu.coordinates {
+  bottom: 0 !important;
+  width: 330px;
+  overflow: auto;
+  max-height: 200px;
+  background: #454545;
+}
+
+.jimu-widget-subtitle {
+  color: #fff;
+}
+
+.addNewNotationLabel {
+  color: #fff;
+}
+
+.toolbar .spad-dropdown-menu {
+  display: none;
+}
+
+.toolbar .spad-dropdown-menu {
+  position: absolute;
+  right: 55px;
+  border-radius: 10px;
+  font-family: 'Myriad Pro' !important;
+}
+
+.toolbar .spad-dropdown-menu.scale {
+  padding: 15px 0 15px 0;
+  text-align: center;
+  min-width: 170px;
+  top: 35px;
+  background: #454545;
+}
+
+.toolbar .spad-dropdown-menu.scale button {
+  border: none;
+  background: #e8e4df;
+  font-size: 13px;
+}
+
+.toolbar .spad-dropdown-menu.scale button, .toolbar .spad-dropdown-menu.scale input {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+  height: 1.5rem;
+  border-radius: 3px;
+}
+
+.toolbar .spad-dropdown-menu.scale input {
+  width: 80%;
+  border: none;
+  background: #e9e9e9;
+  font-size: 13px;
+  font-weight: bold;
+  color: #454545;
+}
+
+#scaleInput {
+  width: 60%;
+  padding: 4px;
+}
+
+.ovwButton {
+  display: none;
+}
+
+.esriOverviewMap.ovwBL .ovwContainer {
+  border: 1px solid black;
+  padding: 0px;
+}
+
+.esriOverviewMap.ovwBL .ovwContainer {
+  bottom: 56px;
+  left: 90px;
+}
+
+.tool>a {
+  background-repeat: no-repeat;
+  background-position: 8px;
+  background-size: 26px;
+  height: 30px;
+  display: block;
+}
+
+.tool>a.spad-dropdown.search {
+  background-image: url(../images/1-01.png);
+}
+
+.tool>a.spad-dropdown.scale {
+  background-image: url(../images/2-01.png);
+}
+
+.tool>a.zoomIn {
+  background-image: url(../images/3-01.png);
+}
+
+.tool>a.zoomOut {
+  background-image: url(../images/4-01.png);
+}
+
+.tool>a.zoomPrevious {
+  background-image: url(../images/5-01.png);
+}
+
+.tool>a.zoomNext {
+  background-image: url(../images/6-01.png);
+}
+
+.tool>a.changeToHand {
+  background-image: url(../images/7-01.png);
+}
+
+.tool>a.selectNode {
+  background-image: url(../images/10-01.png);
+}
+
+.tool>a.measure {
+  background-image: url(../images/11-01.png);
+}
+
+.tool>a.changeToHelp {
+  background-image: url(../images/12-01.png);
+}
+
+.tool>a.ovw {
+  background-image: url(../images/13-01.png);
+}
+
+.tool>a.coordinates {
+  background-image: url(../images/14-01.png);
+}
+
+.tool>a.next {
+  background-image: url(../images/8-01.png);
+}
+
+.tool>a.previous {
+  background-image: url(../images/9-01.png);
+}
+
+.arcgisSearch .searchBtn, .arcgisSearch .searchGroup .searchInput, .arcgisSearch .searchMenu, .jimu-widget-search .arcgisSearch .searchMenu, .toolbar .spad-dropdown-menu.select {
+  color: #fff !important;
+  background-color: #454545;
+  border: none;
+}
+
+.arcgisSearch .searchMenu li:active {
+  background-color: #6b6b6b;
+  color: #454545;
+}
+
+.arcgisSearch .searchMenu li:hover {
+  background-color: #e2d5d5;
+  color: #454545;
+}
+
+.arcgisSearch .searchBtn {
+  -webkit-border-radius: 0 8px 8px 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.arcgisSearch .searchGroup .searchInput {
+  -webkit-border-radius: 8px 0 0 8px;
+  border-radius: 8px 0 0 8px;
+}
+
+.searchInputGroup {
+  left: 36px !important;
+}
+
+.arcgisSearch .searchClear {
+  right: 6px;
+  background-color: #454545;
+}
+
+.arcgisSearch .searchClose, .arcgisSearch .searchSpinner {
+  background-color: #454545;
+  color: #c8c8c8;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-select.selected, .jimu-multiple-layers-featureset-chooser .btn-clear,.jimu-multiple-layers-featureset-chooser .draw-item-btn ,
+.jimu-multiple-layers-featureset-chooser .btn-select{
+  background: #1ca5dd;
+  /* border: 1px solid #242424; */
+  /* line-height: 34px; */
+  /* color: #454545; */
+  border-radius: 9px;
+  /* width: 120px; */
+  /* margin: 5px; */
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-select.selected:hover
+, .jimu-multiple-layers-featureset-chooser .btn-clear:hover {
+  background-color: #454545;
+  color: #c8c8c8;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-select .feature-action {
+  color: #fff;
+  height: 100%;
+}
+.jimu-widget,.feature-action{
+  color:#dfdfdf;  
+}
+.feature-action:hover{
+  color: #454545;
+}
+
+.esriMeasurement .areaIcon,
+.esriMeasurement .distanceIcon,
+.esriMeasurement .locationIcon{
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  background-size: 35px;
+  background-position: 2.6px 1.6px;
+  border: none;
+  border-radius: 6px;
+  margin: 0px 9px;
+}
+
+.esriMeasurement .areaIcon{  
+  background-image: url(../images/m1-b.png);
+  }
+
+.esriMeasurement .esriButtonHover .dijitButtonNode,.esriMeasurement .esriButtonChecked .dijitButtonNode,.esriMeasurement .esriButtonActive .dijitButtonNode{
+  background:none;
+}
+.esriMeasurement .esriButtonHover .areaIcon,
+.esriMeasurement .esriButtonHover .distanceIcon,
+.esriMeasurement .esriButtonHover .locationIcon{
+  background-color:#e5e5e5;
+}
+.esriMeasurement .esriButtonChecked .areaIcon,
+.esriMeasurement .esriButtonChecked .distanceIcon,
+.esriMeasurement .esriButtonChecked .locationIcon{  
+    background-color: black;
+}
+.esriMeasurement .areaIcon{  
+  background-image: url(../images/m1-b.png);
+  }
+  .esriMeasurement .distanceIcon{  
+  background-image: url(../images/m2-b.png);
+  }
+  .esriMeasurement .locationIcon{  
+  background-image: url(../images/m3-b.png);
+  }
+.esriMeasurement .esriButtonChecked .areaIcon{
+background-image: url(../images/m1.png);
+}
+.esriMeasurement .esriButtonChecked .distanceIcon{
+background-image: url(../images/m2.png);
+}
+.esriMeasurement .esriButtonChecked .locationIcon{
+  background-image: url(../images/m3.png);
+}
+.esriMeasurement{
+  border-radius:10px;
+}
+.esriMeasurement .esriButton {
+  margin:10px;
+}
+.esriMeasurement .esriMeasurementSeparator{
+  display:none;
+}
+.esriMeasurement .esriMeasurementResultValue .result{  
+    font-size: 20px;       
+    line-height: 25px;    
+    color:white;
+}
+.esriMeasurement .esriToggleButton .dijitButtonNode{
+  background:white;
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 11px;
+  margin-left: 5px;
+}
+
+.jimu-widget-search .arcgisSearch .searchGroup .searchInputGroup .searchInput {
+  width: 171px;
+}

@@ -1,0 +1,62 @@
+{
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "widgets/Header/Widget",
+        "position": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "height": 65,
+          "relativeTo": "browser"
+        },
+        "version": "2.16"
+      },
+      {
+        "uri": "widgets/BasicBar/Widget",
+        "position": {
+          "top": 70,
+          "right": 0,
+          "relativeTo": "browser"
+        },
+        "version": "2.16"
+      },
+      {
+        "uri": "widgets/DBButtons/Widget",
+        "position": {
+          "button": 50,
+          "right": 50,
+          "relativeTo": "map"
+        },
+        "version": "2.16"
+      },
+      {
+        "uri": "widgets/PlanStandard/Widget",
+        "position": {
+          "bottom": 50,
+          "left": 0,
+          "top": 65,
+          "relativeTo": "map"
+        },
+        "version": "2.16"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.16"
+      }
+    ]
+  },
+  "map": {
+    "position": {
+      "left": 0,
+      "top": 65,
+      "right": 0,
+      "bottom": 0
+    }
+  }
+}

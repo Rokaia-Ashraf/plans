@@ -1,0 +1,95 @@
+<div class="standard">
+    <div class="standard-item filter">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel">
+                Filter Panel
+            </div>
+        </div>
+    </div>
+    <div class="standard-item map">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel">
+                <div class="item">
+                    <button>Add Data</button>
+                    <div class="item-content" data-dojo-attach-point="addDataNode"></div>
+                </div>
+                <div class="item">
+                    <button>Bookmark</button>
+                    <div class="item-content" data-dojo-attach-point="bookMarkNode"></div>
+                </div>
+                <div class="item grid">
+                    <button>Grid Overlay</button>
+                    <div class="item-content" data-dojo-attach-point="gridNode"></div>
+                </div>
+                <div class="item gridSystem">
+                    <button>Gridded Reference</button>
+                    <div class="item-content" data-dojo-attach-point="gridSystemNode"></div>
+                </div>
+                <div class="item swipe">
+                    <button>Swipe</button>
+                    <div class="item-content" data-dojo-attach-point="swipeNode"></div>
+                </div>
+                <div class="item">
+                    <button>Share</button>
+                    <div class="item-content" data-dojo-attach-point="shareNode"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="standard-item analysis">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel">
+                <div class="item">
+                    <button>Analysis</button>
+                    <div class="item-content" data-dojo-attach-point="analysisNode"></div>
+                </div>
+                <div class="item">
+                    <button>Query</button>
+                    <div class="item-content" data-dojo-attach-point="queryNode"></div>
+                </div>
+                <div class="item">
+                    <button>Chart</button>
+                    <div class="item-content" data-dojo-attach-point="chartNode"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="standard-item find">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel" data-dojo-attach-point="filterNode">
+            </div>
+        </div>
+    </div>
+    <div class="standard-item draw">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel" data-dojo-attach-point="drawNode">
+            </div>
+        </div>
+    </div>
+    <div class="basic-bar-bottom">
+        <div id="takeScreenshot" class="down-item screenshot" data-dojo-attach-event="ondijitclick:takeScreenshot">
+            <div class="icon"></div>
+        </div>
+        <div id="fullscreen" class="down-item fullscreen" data-dojo-attach-event="ondijitclick:fullScreen">
+            <div class="icon"></div>
+        </div>
+        <div id="print-tab" class="down-item print">
+            <div class="icon"></div>
+            <div class="content" data-dojo-attach-point="printNode"></div>
+        </div>
+    </div>
+    <div class="layer-list">
+        <div class="icon"></div>
+        <div class="content">
+            <div class="spad-panel layerlist">
+                <button>Layer List</button>
+                <div class="layer-panel" data-dojo-attach-point="layerListNode"></div>
+            </div>
+        </div>
+    </div>
+</div>

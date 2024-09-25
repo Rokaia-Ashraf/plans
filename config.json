@@ -1,0 +1,201 @@
+{
+  "theme": {
+    "name": "PlansTheme",
+    "styles": ["default"],
+    "version": "2.16",
+    "sharedTheme": {
+      "useHeader": false,
+      "useLogo": false,
+      "isPortalSupport": false
+    },
+    "customStyles": {
+      "mainBackgroundColor": ""
+    }
+  },
+  "portalUrl": "http://spad.gopp.local/portal",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Plans",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "images/app-logo.png",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "position": {
+          "bottom": 10,
+          "right": 50,
+          "relativeTo": "map"
+        },
+        "version": "2.16",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend"
+      },
+      {
+        "uri": "themes/PlansTheme/widgets/Header/Widget",
+        "position": {
+          "top": 0,
+          "left": 0,
+          "right": 0,
+          "height": 65,
+          "relativeTo": "browser"
+        },
+        "version": "2.16",
+        "id": "widgets_Header_Widget_1",
+        "name": "Header"
+      },
+      {
+        "uri": "themes/PlansTheme/widgets/DBSelect/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "map"
+        },
+        "version": "2.16",
+        "visible": true,
+        "id": "themes_DashboardTheme_widgets_Header_Widget_20",
+        "name": "DashboardHeader"
+      },
+      {
+        "uri": "themes/PlansTheme/widgets/BasicBar/Widget",
+        "position": {
+          "top": 180,
+          "right": 0,
+          "relativeTo": "browser"
+        },
+        "version": "2.16",
+        "id": "widgets_BasicBar_Widget_1",
+        "name": "Basic Bar"
+      },
+      {
+        "uri": "themes/PlansTheme/widgets/PlanStandard/Widget",
+        "position": {
+          "bottom": 0,
+          "left": 0,
+          "top": 65,
+          "relativeTo": "browser"
+        },
+        "version": "2.16",
+        "id": "widgets_StandardBar_Widget_1",
+        "name": "StandardBar"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.16",
+        "id": "widgets_Coordinate_Widget_1",
+        "name": "Coordinate"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 250,
+      "top": 65,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "35954923554d4c74b431a72132c153c4",
+    "mapOptions": {
+      "extent": {
+        "xmin": 2750000,
+        "ymin": 2350000,
+        "xmax": 4000000,
+        "ymax": 3800000,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "http://spad.gopp.local/portal"
+  },
+  "widgetPool": {
+    "widgets": [
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.16",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 1
+      }
+    ],
+    "groups": [],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.16",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  },
+  "headerConfig": {
+    "homeUrl": "https://arcport.gopp.local/SpaD2020",
+    "databrowserUrl": "https://arcport.gopp.local/Databrowsernew/",
+    "dashboardUrl": "https://arcport.gopp.local/SpaD2020/Dashboard",
+    "storytellerUrl": "https://arcport.gopp.local/StoryTeller",
+    "plansUrl": "https://arcport.gopp.local/Plans"
+  },
+  "filterConfig": {
+    "nationalExtent": {
+      "center": [31.10424804687444, 27.652704680427494],
+      "zoom": 6
+    },
+    "regionlayer": {
+      "url": "https://spad.gopp.local/server/rest/services/DatabrowserNew/MapServer/31/query?where=1%3D1&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Region_GCode%2CRegion_Name+&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&having=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentOnly=false&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&f=pjson"
+    },
+    "govLayer": {
+      "domainQuery": "https://spad.gopp.local/server/rest/services/DatabrowserNew/MapServer/queryDomains?layers=%5B3%5D&f=pjson&outFields=*",
+      "url": "https://spad.gopp.local/server/rest/services/DatabrowserNew/MapServer/4/query?text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Region_GCode%2CGov_GCode%2CGov_Name&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&having=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentOnly=false&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&f=pjson"
+    },
+    "markazLayer": {
+      "url": "https://spad.gopp.local/server/rest/services/DatabrowserNew/MapServer/7/query?text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Markaz_GCode%2CMarkaz_Name%2CGov_GCode+&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&having=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentOnly=false&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&f=pjson"
+    },
+    "sheakhaLayer": {
+      "url": "https://spad.gopp.local/server/rest/services/DatabrowserNew/MapServer/5/query?text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=Shiakha_Name%2CShiakha_GCode%2CMarkaz_GCode+&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&having=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&historicMoment=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentOnly=false&datumTransformation=&parameterValues=&rangeValues=&quantizationParameters=&f=pjson"
+    }
+  },
+  "apiURL": "https://arcport.gopp.local/SpaD2020API/api/",
+  "imagesURL": "https://arcport.gopp.local/SpaD2020API/"
+}

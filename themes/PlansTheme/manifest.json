@@ -1,0 +1,30 @@
+{
+  "name": "PlansTheme",
+  "label": "Plans Theme",
+  "platform": "HTML",
+  "panels": [    
+  ],
+  "styles": [   
+    {
+      "name": "default",
+      "description": "this is black style",
+      "styleColor": "#000000"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is the left layout for Plans"
+    },
+    {
+      "name": "right",
+      "description": "this is the right layout for Plans"
+    }
+  ],
+  "version": "2.16",
+  "wabVersion": "2.16",
+  "author": "SpaD Development Team",
+  "description": "",
+  "copyright": "GOPP 2020",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

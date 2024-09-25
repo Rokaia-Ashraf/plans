@@ -1,0 +1,64 @@
+<div class="toolbar">
+  <div class="tool">
+    <a class="spad-dropdown search" title="Search"></a>
+    <div class="spad-dropdown-menu search" data-dojo-attach-point="searchNode"></div>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="spad-dropdown scale" title="Scale level"></a>
+    <div class="spad-dropdown-menu scale">
+      <input type="button" value="1:5000" data-dojo-attach-event="ondijitclick:changeViewScale" />
+      <input type="button" value="1:10000" data-dojo-attach-event="ondijitclick:changeViewScale" />
+      <input type="button" value="1:100000" data-dojo-attach-event="ondijitclick:changeViewScale" />
+      <input type="button" value="1:1000000" data-dojo-attach-event="ondijitclick:changeViewScale" />
+      <input type="button" value="1:10000000" data-dojo-attach-event="ondijitclick:changeViewScale" />
+      <input type="number" id="scaleInput" placeholder="scale here..." />
+      <button type="button" data-dojo-attach-event="ondijitclick:changeViewScaleInput">Go</button>
+    </div>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="zoomIn" title="Zoom in" data-dojo-attach-event="ondijitclick:zoomIn"></a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="zoomOut" title="Zoom out" data-dojo-attach-event="ondijitclick:zoomOut"> </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="zoomPrevious" title="Previous scale" data-dojo-attach-event="ondijitclick:zoomPrevious"> </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="zoomNext" title="Next scale" data-dojo-attach-event="ondijitclick:zoomNext">
+    </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="changeToHand" title="Pan" data-dojo-attach-event="ondijitclick:changeToHand">
+    </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="spad-dropdown selectNode" title="Select"></a>
+    <div class="spad-dropdown-menu select" data-dojo-attach-point="selectNode"></div>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="spad-dropdown measure" title="Measure"></a>
+    <div class="spad-dropdown-menu measure" data-dojo-attach-point="measureNode"></div>
+  </div>
+  <hr />
+  <div class="tool">
+    <a class="changeToHelp" title="Identify" data-dojo-attach-event="ondijitclick:changeToHelp"> </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a title="Toggle overview" class="ovw" onclick="document.getElementsByClassName('ovwController')[0].click()"> </a>
+  </div>
+  <hr />
+  <div class="tool">
+    <a title="Coordinates" class="spad-dropdown coordinates"></a>
+    <div class="spad-dropdown-menu coordinates" data-dojo-attach-point="coordinatesNode"></div>
+  </div>
+</div>

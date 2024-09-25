@@ -1,0 +1,309 @@
+.standard{
+  width: 63px;
+  height: 100%;
+  background: #383838;
+}
+.standard-item{
+  display: block;
+  width: 100%;
+  height: 63px;
+  cursor: pointer;
+}
+
+.layer-panel .layers-section {
+  color: #000;
+}
+
+.standard-item.active{
+  background: #c9cdd1;
+}
+.standard-item .icon{
+  height: 100%;
+  width: 100%;
+  background-size: 35px 35px;
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+.standard-item.map .icon{
+  background-image: url(../images/21-1.png);
+  background-image: url(../images/21.png);
+}
+.standard-item.active.map .icon{
+  background-image: url(../images/21-1.png);  
+}
+.standard-item.analysis .icon{
+  background-image: url(../images/23-1.png);
+  background-image: url(../images/23.png);
+}
+.standard-item.active.analysis .icon{
+  background-image: url(../images/23-1.png);  
+}
+.standard-item.find .icon{
+  background-image: url(../images/24-1.png);
+  background-image: url(../images/24.png);
+}
+.standard-item.active.find .icon{
+  background-image: url(../images/24-1.png);  
+}
+.standard-item.filter .icon{
+  background-image: url(../images/25-1.png);
+  background-image: url(../images/25.png);
+}
+.standard-item.active.filter .icon{
+  background-image: url(../images/25-1.png);  
+}
+.standard-item.draw .icon{
+  background-image: url(../images/26-1.png);
+  background-image: url(../images/26.png);
+}
+.standard-item.active.draw .icon{
+  background-image: url(../images/26-1.png);  
+}
+
+.basic-bar-bottom{
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+.down-item{
+  height: 42px;width: 100%;padding: 0px 9px;cursor: pointer;
+}
+.down-item .icon{
+  height: 27px;
+  width: 27px;
+  margin:7.5px;
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+.down-item.screenshot .icon{
+    background-image: url(../images/27.png);  
+}
+.down-item.fullscreen .icon{
+    background-image: url(../images/28.png);  
+}
+.down-item.print .icon{
+  background-image: url(../images/29-1.png);  
+  background-image: url(../images/29.png);  
+}
+.down-item.print.active .icon{
+  background-image: url(../images/29-1.png);    
+}
+
+.standard-item .content{
+  width: 250px;
+  position: absolute;
+  top: 0;
+  left: 63px;
+  height: 100%;
+  display: none;
+}
+
+.standard-item.active .content{
+  display: block;
+}
+
+.spad-panel{  
+  background: #ebebeb;
+  width: 100%;
+  height: 100%;    
+  overflow-y: auto;
+}
+
+.spad-panel .item > button{
+    font-weight: bold;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(0deg, #B3B3B3, #EBEBEB);
+    color: #000;
+    font-size: 17.5px;
+    height: 58px;
+    text-align: left;
+    cursor: pointer;
+}
+.spad-panel .item > button::after{
+  margin-top: 8px;
+  margin-right: 10px;
+  float: right;
+  height: 6px;
+  display: block;
+  width: 20px;
+  content: " ";
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../images/2arrow.png);
+}
+
+.spad-panel .item.active > button::after{  
+  background-image: url(../images/2arrow-w.png);
+}
+
+.spad-panel .item.active > button{
+    background-image: linear-gradient(0deg, black, #373737);    
+    color: #fff;    
+}
+
+.item .item-content{
+  width: 100%;
+  min-height: 100px;
+  max-height: 400px;
+  overflow: auto;
+  display: none;
+}
+
+.item.active .item-content{
+  display: block;
+}
+.layer-list{  
+  top: 0px;
+  left: 63px;
+  position: absolute;    
+}
+
+.layer-list.active{
+  height: 100%;
+}
+.layer-list .icon{  
+    width: 68px;
+    height: 53px;
+    background: #d1d1d1;
+    border-bottom-right-radius: 15px;
+    background-image: url(../images/30-1.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-size: 45px 37px;
+    background-position: 9px 6px;
+}
+.layer-list .content{
+  width: 270px;
+  overflow: auto;
+  top: 0px;
+  position: absolute;
+  display: none;
+}
+.layer-list.active .content{
+  display: block;
+  height: 100%;
+}
+.layerlist button{
+  background-color: #c9cdd1;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0 0 10px 8px;
+    cursor: pointer;
+}
+.layerlist button::before
+{
+  top: 7px;
+  position: relative;
+  content: "";
+  display: inline-block;
+  background-image: url(../images/30-1.png);
+  width: 45px;
+  height: 39px;
+  padding: 0 15px 0 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.layerlist button::after
+{
+  content: "";
+  top: 15px;
+  left: 26%;
+  position: relative;
+  display: inline-block;
+  background-image: url(../images/left-arrow.png);
+  width: 18px;
+  height: 18px;
+  padding: 0 0 18px 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.layer-list .layer-panel {
+  padding: 4%;
+}
+
+.jimu-widget-add-data,.jimu-widget-add-data .jimu-tab3 > .jimu-viewstack{
+  position:relative;        
+  top:initial;
+  right:initial;
+  left:initial;
+  bottom:initial;
+  padding-bottom: 0px;
+  width: 95%;
+  left: 2.5%;
+}
+
+.jimu-multiple-layers-featureset-chooser .btn-clear,.feature-action{
+  color: #000;  
+}
+
+.jimu-widget-attributetable-feature-table,.dgrid{
+  color: black;
+}
+
+  
+#dijit__WidgetBase_1 {
+width: 60px !important;
+height: 60px !important;
+border-radius: 50px !important;
+text-align: center;
+}
+
+#dijit__WidgetBase_1 > img {
+width: 30px;
+height: 30px;
+margin: 15px 0 0 0;
+}
+
+#dijit__WidgetBase_0 {
+width: 60px !important;
+height: 60px !important;
+border-radius: 50px !important;
+text-align: center;
+}
+
+#dijit__WidgetBase_0 > img {
+width: 30px;
+height: 30px;
+margin: 15px 0 0 0;
+}
+.esriPopup {
+font-family: 'Myriad Pro' !important;
+}
+
+.dgrid-content {
+width: 100% !important;
+position: relative;
+height: 100%;
+}
+.jimu-widget-add-data{
+  position:relative !important;
+  height:400px;  
+  width:100%;
+}
+.jimu-widget-add-data .jimu-tab3 > .jimu-viewstack{
+  width:100%;
+}
+.jimu-widget-add-data .add-url-pane .action-bar .jimu-btn, .jimu-widget-add-data .add-file-pane .file-form label{
+  min-width:100px;
+}
+.jimu-widget-bookmark{
+    position:relative !important;
+    height:300px;  
+    width:100%;
+}
+#print-tab .content{
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  left: 72px;
+  background: #454545;
+  border-radius: 10px;
+  padding: 10px;
+  width: 280px;
+}
